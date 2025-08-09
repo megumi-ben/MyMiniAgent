@@ -1,0 +1,7 @@
+# 忽略.env文件
+.env
+**/chroma.db/
+
+# 也可以忽略所有.env开头的文件，比如.env.local、.env.production等
+.env*
+    
