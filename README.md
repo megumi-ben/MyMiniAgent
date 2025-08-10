@@ -122,3 +122,8 @@ logfire.instrument_pydantic_ai()
 >uvicorn agui_agent:app --reload --port 8000
 
 加了reload参数就可以自动重载，修改代码后无需重新启动。
+
+## 注意事项
+
+- 记得自己在demo目录下创建.env文件写入你的api key；
+- 如果使用个人知识库先使用embeding.py进行搭建，谷歌的genai是需要科学上网的；
