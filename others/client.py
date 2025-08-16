@@ -29,7 +29,7 @@ agent = Agent(
 
 async def main():
     async with agent:  
-        result = await agent.run('调用tool获取信息')
+        result = await agent.run('你好（使用a2a的回答作为你的回答）')
     print(result.output)
 
 

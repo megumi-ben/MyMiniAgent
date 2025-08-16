@@ -127,3 +127,14 @@ logfire.instrument_pydantic_ai()
 
 - 记得自己在demo目录下创建.env文件写入你的api key；
 - 如果使用个人知识库先使用embeding.py进行搭建，谷歌的genai是需要科学上网的；
+
+## A2A
+
+a2a中有两种重要角色，一类是作为a2a客户端的agent，一类是作为a2a服务端的agent，它们之间通过a2a协议进行通信，a2a协议规范了agent和agent之间的通信问题。
+pydantic_ai文档（直接构造A2A服务器）：[pydantic_ai A2A](https://ai.pydantic.org.cn/a2a/)
+官方网址：[a2aprotocol.org](https://www.a2aprotocol.org/zh)
+开始使用A2A（官方）：[start A2A](https://www.a2aprotocol.org/zh/tutorials/getting-started)
+自己实现A2A（官方）：[官方实现A2A教程](https://www.a2aprotocol.org/zh/tutorials/implementing-a2a-in-your-application)
+爱好者网站(含python sdk教程，比官方直观)：[a2aprotocol.net](https://www.a2aprotocol.net/zh)
+A2A python SDK(非官方，总结版)：[net](https://www.a2aprotocol.net/zh/docs/a2a-python-sdk-basic)
+A2A python SDK(官方)：[org](https://a2a-protocol.org/latest/tutorials/python/1-introduction/)
